@@ -14,6 +14,7 @@ public class Vehicle : MonoBehaviour
             {
                 throw new ArgumentException("The year can't be less then zero!");
             }
+
             year = value; 
         }
     }
